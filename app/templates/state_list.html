@@ -27,7 +27,7 @@
                 <div class="col-lg-4 col-sm-6" style="margin:auto;" >
 
                     <a href= "/states/{{ state.pk }}" class="portfolio-box">
-                        <img src= '{%static "" %}/img/portfolio/thumbnails/{{state.name}}.jpg' style="width:200px;" class="img-responsive" alt="No pic"  >
+                        <img src= '{%static "" %}/img/portfolio/thumbnails/{{state.name}}.jpg' style="width:200px;" class="img-responsive" alt="No pic" onerror="this.src='{% static 'img/portfolio/thumbnails/image-not-found.jpg' %}'" >
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
