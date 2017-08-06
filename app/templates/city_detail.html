@@ -3,21 +3,46 @@
 {% block body %}
 {% load static %}
 
-<section class="bg-primary" style="margin-left:auto;">
+<section class="bg-primary" style="margin:0%; background-image: url('{% static "img/header.jpg" %}'); background-size: 100%;">
+
+    <div class="container">
+
+        <h3> City Name :</h3>
+        {{city.name}}
+        <br>
+        <br>
 
 
-    <h3> City Name :</h3>
-    {{city.name}}
+        <h4> City State:</h4>
+        {{city.state}}
+        <br>
+        <br>
 
-    <h4> City State:</h4>
-    {{city.state}}
 
 
-    <h4> City county:</h4>
-    {{city.county}}
 
-    <h4>Latitude & longitude</h4>
-    {{city.latitude}} | {{city.longitude}}
+        <h4> City county:</h4>
+        {{city.county}}
+        <br>
+        <br>
+
+
+        <h4>Latitude & longitude</h4>
+        {{city.latitude}} | {{city.longitude}}
+        <br>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
 

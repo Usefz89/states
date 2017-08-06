@@ -1,11 +1,38 @@
-<form method="POST" action="/city_create/">
+{% extends 'base.html' %}
+{% block body %}
+
+{% load crispy_forms_tags %}
+
+{% load static %}
+
+
+<section  style=" background-image: url('{% static "img/header.jpg" %}'); background-size:  100%;">
+
+    <div class="row" style="margin-top:40px; margin-bottom:40px; margin-left:40px; margin-right:800px;">
+
+        <h1 style="text-transform: uppercase;"> Add City here  </h1>
+
+
+    <form method="POST" action="/city_create/">
     {% csrf_token %}
 
-    {{ form.as_table }}
+    {{ form|crispy }}
 
-    <input type="submit" value="Save" />
+    <input type="submit" value="Save" class="btn btn-primary" />
 
 </form>
+
+
+
+    </div>
+
+
+
+
+
+
+</section>
+
 
 
 </br>
@@ -14,3 +41,4 @@
 {{ valid }}
 <br>
 
+{% endblock %}

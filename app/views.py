@@ -192,7 +192,7 @@ def city_create(request):
         if form.is_valid():
             form.save()
             context['valid'] = "is_valid"
-            return render(request, "city_createa.html", context)
+            return render(request, "city_create.html", context)
 
         else:
 
