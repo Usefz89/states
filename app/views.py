@@ -107,6 +107,7 @@ class StateListView(ListView):
     template_name = "state_list.html"
     context_object_name = "state_list"
 
+
 # class StateDetailView(DetailView):
 #     model = State
 #     template_name = "State_detail.html"
@@ -131,19 +132,7 @@ def state_detail(request,pk):
 
     return render(request, 'state_detail.html', context)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#------------------------------
 
 class CityDetailView(DetailView):
     model = City

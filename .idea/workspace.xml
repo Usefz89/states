@@ -18,8 +18,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="194" column="47" lean-forward="false" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
+            <state relative-caret-position="361">
+              <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/app/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -72,24 +72,23 @@
       <file leaf-file-name="state_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/state_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="22" column="76" lean-forward="false" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+            <state relative-caret-position="285">
+              <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h7#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="434">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/app/templates/city_detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
               </folding>
@@ -107,16 +106,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="state_list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="state_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/state_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="231" lean-forward="false" selection-start-line="29" selection-start-column="231" selection-end-line="29" selection-end-column="231" />
+            <state relative-caret-position="260">
+              <caret line="30" column="87" lean-forward="false" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#section#1;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -157,9 +155,9 @@
       <find>creative.min.css</find>
       <find>us state</find>
       <find>background</find>
-      <find>sevi</find>
       <find>section</find>
       <find>servi</find>
+      <find>sevi</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -176,15 +174,15 @@
         <option value="$PROJECT_DIR$/project/settings.py" />
         <option value="$PROJECT_DIR$/app/forms.py" />
         <option value="$PROJECT_DIR$/project/urls.py" />
-        <option value="$PROJECT_DIR$/app/templates/state_detail.html" />
         <option value="$PROJECT_DIR$/app/templates/city_search.html" />
         <option value="$PROJECT_DIR$/app/templates/test.html" />
         <option value="$PROJECT_DIR$/app/static/css/creative.css" />
-        <option value="$PROJECT_DIR$/app/views.py" />
-        <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/templates/city_create.html" />
         <option value="$PROJECT_DIR$/app/templates/city_detail.html" />
+        <option value="$PROJECT_DIR$/app/templates/state_detail.html" />
+        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/templates/state_list.html" />
+        <option value="$PROJECT_DIR$/app/templates/base.html" />
       </list>
     </option>
   </component>
@@ -742,16 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="194" column="47" lean-forward="false" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -776,40 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/state_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="22" column="76" lean-forward="false" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h7#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/city_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
           </folding>
@@ -828,16 +786,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/state_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h7#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/state_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="231" lean-forward="false" selection-start-line="29" selection-start-column="231" selection-end-line="29" selection-end-column="231" />
+        <state relative-caret-position="260">
+          <caret line="30" column="87" lean-forward="false" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#section#1;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
