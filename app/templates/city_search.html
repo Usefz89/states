@@ -1,0 +1,78 @@
+
+
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+
+{% load crispy_forms_tags %}
+
+
+<header >
+    <div class="header-content" >
+            <div class="header-content-inner" >
+
+
+
+
+
+
+                <form method="post" action = "/city_search/" >
+
+
+                {% csrf_token %}
+
+                {{ form|crispy }}
+
+                <input class= "btn btn-primary" type="submit" value="Search Cities">
+                    <br>
+                    <br>
+                </form>
+
+
+            </div>
+
+            <div class="row">
+                {% for city in city_list %}
+
+
+                <div class="col-md-4">
+
+                        <a href="/cities/{{ city.pk }}">{{ city.name }}</a><br>
+
+                </div>
+
+
+
+                {% endfor %}
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</header>
+
+
+
+
+{% endblock %}
+
+
+

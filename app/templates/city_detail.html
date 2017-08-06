@@ -1,0 +1,29 @@
+
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+
+<section class="bg-primary" style="margin-left:auto;">
+
+
+    <h3> City Name :</h3>
+    {{city.name}}
+
+    <h4> City State:</h4>
+    {{city.state}}
+
+
+    <h4> City county:</h4>
+    {{city.county}}
+
+    <h4>Latitude & longitude</h4>
+    {{city.latitude}} | {{city.longitude}}
+
+
+
+
+</section>
+
+
+{% endblock %}
+

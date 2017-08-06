@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+
+
+
+
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner"   >
+                <h1 id="homeHeading">The big US States ! </h1>
+                <hr>
+
+                <p class="test">Find below the list of all States and what does it includes and how you can see all the cities in the state please check and give us your opinion</p>
+            </div>
+        </div>
+    </header>
+    <br>
+
+
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row" style="margin-left:80px;">
+                {% for state in state_list %}
+                <div class="col-lg-4 col-sm-6" style="margin:auto;" >
+
+                    <a href= "/states/{{ state.pk }}" class="portfolio-box">
+                        <img src= '{%static "" %}/img/portfolio/thumbnails/{{state.name}}.jpg' style="width:200px;" class="img-responsive" alt="No pic"  >
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    State
+                                </div>
+                                <div class="project-name">
+                                    {{ state.name }}
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <br>
+
+
+
+                </div>
+
+
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+{% endblock %}
+
+
+
+

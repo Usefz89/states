@@ -1,0 +1,42 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+<body>
+<h3 id='list-header-one'>This Is The First
+List</h3>
+<ul class="list" id="list-one">
+<li class="list-item" >Cats</li>
+<li class="list-item" >Dogs</li>
+</ul>
+<h3 id='list-header-two'>This Is The Second
+List</h3>
+<ul class="list" id="list-two">
+<li class="list-item" >Retrievers</li>
+<li class="list-item" >German
+Shepherds</li>
+<li class="list-item" >Bulldogs</li>
+<li class="list-item" >Beagles</li>
+<li class="list-item" >Poodles</li>
+</ul>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3
+.0.0-alpha1/jquery.js"></script>
+
+<script type="text/javascript">
+
+   $('.list').css('display','none');
+   $('h3').on('mouseenter', function(e) {
+    $('#'+e.target.id).next().fadeIn();
+    $('h3').on('mouseleave', function(e) {
+    $('#'+e.target.id).next('.list').fadeOut();
+    });
+    });
+
+</script>
+
+
+</body>
+</html>

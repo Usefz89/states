@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+{% load static %}
+
+<section class="bg-primary" id="about" style="margin-left:auto;">
+
+    <div class="row" style="margin-left:30px;">
+
+    <h1>  {{state.name}} </h1>
+        <br>
+
+    </div>
+
+   <div class="row" style="margin-left:30px;" >
+       <h3> Includes the following cities:</h3>
+       {% for city in cities %}
+
+       <div class="col-md-4 btn-primary text-center" style="margin:auto; " >
+
+
+               <h7 class="bg-primary" style="text-shadow: 3px 2px gray;"><a  href="cities/{{city.pk}}" id="link-special"> {{city.name}}  </a></h7>
+
+
+       </div>
+
+
+       {% endfor %}
+
+
+   </div>
+
+
+
+
+
+</section>
+
+
+
+{% endblock %}
+
