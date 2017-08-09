@@ -22,6 +22,8 @@ urlpatterns = [
     url(r'cities/(?P<pk>[0-9]+)/$', CityDetailView.as_view()),
     url(r'city_search/$', 'app.views.city_search'),
     url(r'^city_create/', 'app.views.city_create'),
+    url(r'city_delete/$', 'app.views.city_delete'),
+
 
 
 

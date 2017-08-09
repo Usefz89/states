@@ -42,6 +42,12 @@ class CitySearchForm(forms.Form):
         #        )
 
 
+class DeleteCityForm(forms.ModelForm):
+    class Meta:
+
+        model = City
+        fields = ['name']
+
 
 
 

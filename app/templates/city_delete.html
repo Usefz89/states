@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+
+<header>
+
+    <div class="header-content">
+        <div class="header-content-inner" style="padding:40px;">
+                        <form action="/city_delete/" method="POST">
+
+        {% csrf_token %}
+        {{form|crispy}}
+        <input type="submit" value="Delete City" class="btn btn-primary">
+
+    </form>
+
+
+
+        </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+</header>
+
+
+
+
+
+{% endblock %}

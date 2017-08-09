@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 
 from app.models import *
@@ -192,6 +192,37 @@ def city_create(request):
         form = CreateCityForm()
         context['form'] = form
         return render(request, "city_create.html", context)
+
+
+def city_delete(request):
+    context = {}
+
+    if request.method == "POST":
+
+        form = DeleteCityForm(request.POST)
+        context['form'] = form
+        if form.is_valid():
+            del_city = get_object_or_404(City, name= form.cleaned_data['name'])
+            del_city.delete()
+            return redirect('/state_list_view')
+
+
+        else:
+            error=form.errors
+            context['error']=error
+            return render(request, "city_delete.html", context)
+
+
+    else:
+        form = DeleteCityForm()
+        context['form'] = form
+        return render(request, 'city_delete.html', context)
+
+
+
+
+
+
 
 
 
