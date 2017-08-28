@@ -9,13 +9,27 @@
 
     <div class="header-content">
         <div class="header-content-inner" style="padding:40px;">
-                        <form action="/city_delete/" method="POST">
+            <form action="/city_delete/" method="POST">
 
-        {% csrf_token %}
-        {{form|crispy}}
-        <input type="submit" value="Delete City" class="btn btn-primary">
+                 {% csrf_token %}
+                    {{form|crispy}}
+                    <input type="submit" value="Delete City" class="btn btn-primary">
 
-    </form>
+            </form>
+            <br>
+            <br>
+            {% if messages %}
+                <div class="alert alert-success">
+                    {% for message in messages %}
+                        {{ message }}
+                    {% endfor %}
+
+                </div>
+            {% endif %}
+
+
+
+
 
 
 

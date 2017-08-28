@@ -1,12 +1,15 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404, get_list_or_404
 from django.http import HttpResponse
+from django.contrib import messages
+from django.contrib.auth import authenticate, login, logout
 
-from app.models import *
+
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 from app.forms import *
+
 
 
 # Create your views here.
@@ -180,6 +183,7 @@ def city_create(request):
         context['form'] = form
         if form.is_valid():
             form.save()
+            messages.success(request, "Successfully added")
             context['valid'] = "is_valid"
             return render(request, "city_create.html", context)
 
@@ -202,9 +206,15 @@ def city_delete(request):
         form = DeleteCityForm(request.POST)
         context['form'] = form
         if form.is_valid():
-            del_city = get_object_or_404(City, name= form.cleaned_data['name'])
-            del_city.delete()
-            return redirect('/state_list_view')
+            del_city = get_list_or_404(City, name= form.cleaned_data['name'])
+            for city in del_city:
+                city.delete()
+
+
+
+
+            messages.success(request, "Successfully Deleted")
+            return render(request, "city_delete.html", context)
 
 
         else:
@@ -217,6 +227,24 @@ def city_delete(request):
         form = DeleteCityForm()
         context['form'] = form
         return render(request, 'city_delete.html', context)
+
+
+def user_signup(request):
+    context = {}
+    if request.method == "POST":
+        form = User_signup(request.POST)
+        if form.is_valid():
+            context['form'] = form
+            form.save()
+            return render(request, "user_signup.html", context)
+
+
+            return redirect('/state_list_view/')
+        messages.error(request, form.errors)
+        return redirect("/user_signup/")
+    form = User_signup()
+    context['form'] = form
+    return render(request, 'user_signup.html', context)
 
 
 

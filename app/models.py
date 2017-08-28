@@ -25,7 +25,8 @@ class StateCapital(models.Model):
 
 
 class City(models.Model):
-    name = models.CharField(max_length=100, null=True, blank =True)
+    name = models.CharField(max_length=100, null=True, blank=True, unique=False)
+
     county = models.CharField(max_length=100, null=True)
     state = models.ForeignKey("app.State", null=True, blank=True)
     latitude = models.FloatField(null=True)

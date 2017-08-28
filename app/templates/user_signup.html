@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block body %}
+{% load crispy_forms_tags %}
+
+<header>
+
+    <div class="header-content">
+
+        <div class="header-content-inner">
+
+            <form action="/user_signup/" method="POST">
+
+                {% csrf_token %}
+
+                {{form|crispy}}
+                 <input type="submit", value="SignUp" class="btn btn-primary">
+
+
+
+            </form>
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+</header>
+{% endblock %}
